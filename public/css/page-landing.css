@@ -10,21 +10,24 @@
 
 #container {
     margin: auto;
-    width: 90%;
+    width: 85%;
 }
 h2 {
     height: 16vh;
     animation-delay: 300ms;
 } 
 
+
+
 .visit a {
-    width: 8rm; 
-    height: 8rm;
+    width: 9rm; 
+    height: 9rm;
     background: darkblue;
 
     border: none;
     border-radius: 3rem;
 
+    align-items: center;
     
     align-items: center;
     justify-content: center;
@@ -32,18 +35,71 @@ h2 {
     animation-delay: 250ms;
 
     transition: background 200ms;
-
 }
 
 .visit a:hover{
     background: rgb(102, 247, 102);
 }
 #photo {
-    border: none;
     border-radius: 15rem;
     animation-delay: 200ms;
+   
 }
 
 #logo {
     animation-delay: 150ms;
+    margin-bottom: 100px;
+ 
 }
+
+@media (min-width: 720px) {
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    h2, .visit p {
+        border: none;
+        height: initial;
+        text-align: initial;
+    }
+
+    main h2 {
+
+        font-size: clamp(4ren, 8vm, 8.4rem);
+        width: min(900px, 100%);
+        margin: clamp(10%, 9vh, 12%) 0 1rem;
+        align-items: center;
+    }
+
+    main p{
+        font-size: clamp(2ren, 4vm, 4.2rem);;
+        width: min(300px, 80%);
+        height: 50px;
+        align-items: center;
+    }
+
+   main h2, p{
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .visit p {
+        font-size: 2.4rem;
+        line-height: 1.5;
+        width: clamp(20rem, 20vw, 30rem);
+    }
+
+    .visit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo {
+        animation-delay: 150ms;
+        margin: center;
+    }
+    
+}
+
