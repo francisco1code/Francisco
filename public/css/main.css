@@ -17,9 +17,4 @@ body, button, textarea {
     font: 400 2.5rem/1 'Architects Daughter', cursive;
 }
 
-#page-landing{
-    background: linear-gradient(100deg, #6980cc 0%, #394b85 100%);
-    text-align: center;
-    min-height: 100vh;
-    
-}
+
