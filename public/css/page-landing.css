@@ -1,0 +1,49 @@
+#page-landing{
+    background: linear-gradient(100deg, #6980cc 0%, #394b85 100%);
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+#container {
+    margin: auto;
+    width: 90%;
+}
+h2 {
+    height: 16vh;
+    animation-delay: 300ms;
+} 
+
+.visit a {
+    width: 8rm; 
+    height: 8rm;
+    background: darkblue;
+
+    border: none;
+    border-radius: 3rem;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    animation-delay: 250ms;
+
+    transition: background 200ms;
+
+}
+
+.visit a:hover{
+    background: rgb(102, 247, 102);
+}
+#photo {
+    border: none;
+    border-radius: 15rem;
+    animation-delay: 200ms;
+}
+
+#logo {
+    animation-delay: 150ms;
+}
